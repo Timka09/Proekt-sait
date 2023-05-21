@@ -1,0 +1,18 @@
+body{
+    background-image: url(./photo/dzostik2.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+}
+
+.pages{
+display: flex;
+justify-content: space-around;
+list-style: none;
+}
+.pages-link{
+  font-family: 'Foldit', cursive;
+  text-decoration: none;
+  text-shadow: 3px 1px 3px black;
+  font-size: 50px;
+  }
