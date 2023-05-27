@@ -5,6 +5,22 @@ body{
     background-position-y: -250px;
 }
 
+.text{
+  color: blanchedalmond;
+  font-size: 35px;
+ text-align: center;
+ margin-top: 50px;
+}
+
+.pochatokfoto{
+display: flex;
+justify-content: space-between;
+}
+
+.kart{
+  border:solid blueviolet ;
+}
+
 .pages{
 display: flex;
 justify-content: space-around;
