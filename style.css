@@ -15,10 +15,25 @@ body{
 .pochatokfoto{
 display: flex;
 justify-content: space-between;
+margin-right: 50px;
+}
+
+.card{
+  position: relative;
+  list-style: none;
+  box-shadow: 1px 2px 8px 5px purple;
+  border-radius: 9px;
+  transition: transform 1s linear;
+}
+
+.card:hover{
+  transform: rotate(180deg);
 }
 
 .kart{
-  border:solid blueviolet ;
+  border: 10px double blueviolet ;
+  border-radius: 10px;
+ 
 }
 
 .pages{
@@ -32,3 +47,27 @@ list-style: none;
   text-shadow: 3px 1px 3px black;
   font-size: 50px;
   }
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(173, 255, 47, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.7s linear ;
+
+}
+
+.pochatokfoto:hover .overlay{
+  opacity: 1;
+}
+
+.pochatokfoto:hover{
+border-color: blue;
+
+} 
