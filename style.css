@@ -1,24 +1,24 @@
-body{
-    background-image: url(./photo/dzostik2.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -250px;
+body {
+  background-image: url(./photo/dzostik2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -250px;
 }
 
-.text{
+.text {
   color: blanchedalmond;
   font-size: 35px;
- text-align: center;
- margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.pochatokfoto{
-display: flex;
-justify-content: space-between;
-margin-right: 50px;
+.pochatokfoto {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
 }
 
-.card{
+.card {
   position: relative;
   list-style: none;
   box-shadow: 1px 2px 8px 5px purple;
@@ -26,29 +26,28 @@ margin-right: 50px;
   transition: transform 1s linear;
 }
 
-.card:hover{
+.card:hover {
   transform: rotate(180deg);
 }
 
-.kart{
-  border: 10px double blueviolet ;
+.kart {
+  border: 10px double blueviolet;
   border-radius: 10px;
- 
 }
 
-.pages{
-display: flex;
-justify-content: space-around;
-list-style: none;
+.pages {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
-.pages-link{
-  font-family: 'Foldit', cursive;
+.pages-link {
+  font-family: "Foldit", cursive;
   text-decoration: none;
   text-shadow: 3px 1px 3px black;
   font-size: 50px;
-  }
+}
 
-  .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,15 +58,21 @@ list-style: none;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.7s linear ;
-
+  transition: opacity 0.7s linear;
 }
 
-.pochatokfoto:hover .overlay{
-  opacity: 1;
+.cad {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.pochatokfoto:hover{
-border-color: blue;
+.cad1 {
+  border: 10px double darkblue;
+  border-radius: 35px;
+  text-align: center;
+  width: 380px;
+  height: 380px;
+}
 
-} 
