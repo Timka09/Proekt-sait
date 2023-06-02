@@ -10,6 +10,7 @@ body {
   font-size: 35px;
   text-align: center;
   margin-top: 50px;
+  /* box-shadow: 1px 2px 15px 15px green; */
 }
 
 .pochatokfoto {
@@ -39,6 +40,7 @@ body {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  gap: 60px;
 }
 .pages-link {
   font-family: "Foldit", cursive;
@@ -47,32 +49,56 @@ body {
   font-size: 50px;
 }
 
+button:hover {
+	background: rgba(0,0,0,0);
+	color: #000000;
+	box-shadow: inset 0 0 0 3px #03197e;
+}
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(173, 255, 47, 0.5);
+  background-color: rgba(247, 247, 247, 0.5);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.7s linear;
+  
 }
 
+.cad1:hover .overlay{
+opacity: 0.5;
+}
+
+ 
 .cad {
   gap: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 
 .cad1 {
   border: 10px double darkblue;
+  box-shadow: 1px 2px 8px 5px rgb(19, 211, 211);
   border-radius: 35px;
   text-align: center;
   width: 380px;
   height: 380px;
+  transition: transform 1s;
+  transform: rotate(0deg);
 }
+
+.cad1:hover{
+  transform: rotate(36deg);
+  transform: scale(1.1);
+  border-color: rgb(238, 238, 238);
+}
+
+
 
