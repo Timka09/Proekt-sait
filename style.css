@@ -102,3 +102,46 @@ opacity: 0.5;
 
 
 
+.pad1{
+border: solid yellow;
+border-radius: 5px;
+width: 400px;
+height: 300px;
+list-style: none;
+margin-top: 50px;
+margin-left: -45px;
+}
+
+.pad2{
+border: solid greenyellow;
+border-radius: 5px;
+width: 1250px;
+height: 300px;
+list-style: none;
+margin-top: 50px;
+margin-left: -895px;
+transition: 2s ease-in-out 200ms;
+position: absolute;
+}
+
+.pad2:hover{
+margin-left: 359px;
+}
+
+.pad3{
+border: solid greenyellow;
+border-radius: 5px;
+width: 1250px;
+height: 300px;
+list-style: none;
+margin-left: -895px;
+margin-top: -306px;
+transition: 2s ease-in-out 250ms;
+position: absolute;
+}
+
+.pad3:hover{
+margin-left: 359px;
+
+}
+
